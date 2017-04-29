@@ -36,7 +36,7 @@ The theme will activate after the last restart.
     background-image: url(https://i.imgur.com/6f8vevM.jpg) !important;
     background-size: cover !important;
 }
-.layers { background: transparent !important;
+.layers, .layer { background: transparent !important;
 }
 .callout-backdrop {
     background-image: url(https://i.imgur.com/6f8vevM.jpg) !important;
@@ -49,14 +49,14 @@ body {
 
  .theme-dark .chat{background: transparent;}
 
-#voice-connection {
+#rtc-connection {
     border-top: 1px solid rgba(255, 255, 255, 0.0);
 }
-#voice-connection .btn,
+#rtc-connection .btn,
 .account .btn {
     border: none;
 }
-#voice-connection,
+#rtc-connection,
 #friends,
 #friends .btn,
 .friends-header,
@@ -311,7 +311,7 @@ body {
 .discriminator {
     font-size: 70% !important;
 }
-#voice-connection {
+#rtc-connection {
     margin-left: 3vh !important;
 }
 .guilds {
@@ -352,7 +352,7 @@ body {
 .channels-wrap {
     width: 15vw !important;
 }
-#voice-connection .btn-info {
+#rtc-connection .btn-info {
     border-right: 1px solid rgba(255, 255, 255, .2);
     height: 26px;
     bottom: 3px;
@@ -374,11 +374,11 @@ body {
     background-color: rgba(0, 0, 0, .5);
 }
 .account .btn-group,
-#voice-connection .btn-group {
+#rtc-connection .btn-group {
     border-radius: 10px;
     background-color: rgba(0, 0, 0, .3) !important;
 }
-#voice-connection .btn {
+#rtc-connection .btn {
     background: transparent !important;
     border: none;
 }
@@ -615,7 +615,7 @@ body {
 .status {
     border-color: transparent !important;
 }
-#voice-connection .btn-info:after {
+#rtc-connection .btn-info:after {
     padding-bottom: 2px;
 }
 
@@ -1094,11 +1094,11 @@ code.hljs {
     -webkit-mask-position: center;
     -webkit-mask-size: 16px;
 }
-#voice-connection .btn-info:hover:after {
+#rtc-connection .btn-info:hover:after {
     -webkit-mask-image: url(/assets/d44f38b8b37257c7684e2b3286669a0f.svg);
     -webkit-mask-size: 8px 19px;
 }
-#voice-connection .btn-disconnect:hover:after {
+#rtc-connection .btn-disconnect:hover:after {
     -webkit-mask-image: url(/assets/6754187fddb4fcf6a1927712ee14562c.svg);
     -webkit-mask-size: 16px;
 }
@@ -1112,7 +1112,7 @@ div.icon-friends {
     background-color: #00CCCC !important;
 }
 
-#voice-connection .btn:hover:after {
+#rtc-connection .btn:hover:after {
     background: cyan;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
